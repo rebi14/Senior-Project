@@ -82,13 +82,6 @@ def test_image(image_to_check, known_names, known_face_encodings, tolerance=0.6,
         face_names.append(name)
     print("derse gelen öğrenciler : ")
 
-    """if True in result:
-            print("fotoğraftaki öğrenciler : ")
-
-            [print_result(image_to_check, name, distance, show_distance) for is_match, name, distance in zip(result, known_names, distances) if is_match]
-
-        else:
-            print_result(image_to_check, "unknown_person", None, show_distance)"""
 
     if not unknown_encodings:
         # print out fact that no faces were found in image
